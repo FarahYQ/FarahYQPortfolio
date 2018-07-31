@@ -80,6 +80,17 @@ input, select, textarea {
 
 	*, *:before, *:after {
 		box-sizing: inherit;
+		
+		
+
+	}
+	.skills-icons {
+		color: black;
+		padding: 15px;
+		font-size: 4rem;
+	}
+	.skills-icons * {
+		padding: 25px;
 	}
 
 	body {
@@ -1761,8 +1772,8 @@ input, select, textarea {
 		}
 
 			.image.avatar48 img {
-				width: 56px;
-				height: 70px;
+				width: 66px;
+				height: 80px;
 			}
 
 		.image.fit {
@@ -1776,6 +1787,10 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
+		.devicon-react-original-wordmark colored {
+			font-size: 5rem;
+			color: black;
+		}
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -1825,12 +1840,19 @@ input, select, textarea {
 		}
 
 		ul.icons a {
-			display: inline-block;
+			/* display: inline-block; */
+			padding: 0.5em 1.5em 0.5em 1.5em;
 			width: 2em;
 			height: 2em;
 			line-height: 2em;
-			text-align: center;
+			/* text-align: left; */
 			border: 0;
+		}
+
+		ul.icons a span {
+			position: relative;
+			display: inline-block;
+			font-size: 0.8em;
 		}
 
 /* Form */
@@ -2608,4 +2630,8 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+	}
+
+	.alt {
+		font-color: grey;
 	}
