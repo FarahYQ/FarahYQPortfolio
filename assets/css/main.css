@@ -73,6 +73,12 @@ input, select, textarea {
 }
 
 /* Basic */
+resume {
+	max-width: 100px;
+	/* text-align: center; */
+	font-weight: bold;
+
+}
 
 	html {
 		box-sizing: border-box;
